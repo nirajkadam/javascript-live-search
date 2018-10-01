@@ -1,0 +1,112 @@
+
+body
+{
+	margin-left: 5%;
+}
+
+body ul
+{
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+
+body ul li
+{
+
+}
+
+li:nth-child(odd)
+{
+	background: #4EE2EC;
+	border-radius: 5px;
+}
+li:nth-child(even)
+{
+	background: #81D8D0;
+	border-radius: 5px;
+}
+
+body a
+{
+	text-decoration: none;
+	display: block;
+}
+
+body a p
+{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.input-text
+{
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 25px;
+	width: 500px;
+	display: block;
+	margin-top: 1%;
+	float: left;
+}
+
+body #auto-complete a
+{
+	width: 500px;
+	height: auto;
+	clear: both;
+	padding: 2px;
+}
+
+#auto-complete
+{
+	clear: both;
+	width: 500px;
+	border: 1px solid #456879;
+	border-radius:10px;
+	text-indent: 10px;
+	padding: 2px;
+	overflow: hidden;
+}
+
+/*
+#auto-complete a:hover
+{
+	background: Pink;
+	color: #000000;
+	border-radius: 5px;
+}
+*/
+
+#loader
+{
+	width: 25px;
+	height: 25px;
+	background: url("ajax-loader.gif") no-repeat;
+	float: left;
+	margin-top: 1.5%;
+	margin-left: 0.5%; 
+}
+
+.selected
+{
+	width: 500px;
+	text-decoration: none;
+	border-radius: 5px;
+	background: Pink;
+	color: #000000;
+	margin-right: 10px;
+}
+
+
+.light
+{
+    opacity:0.5;
+}
+
+
+.hidden {display:none!important;}
+.show {display:block!important;}
+
